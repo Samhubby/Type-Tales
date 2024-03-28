@@ -23,7 +23,10 @@ function App() {
   }, []);
 
   return !loading ? (
+    <>
     <ExampleBar/>
+    <Footer/>
+    </>
   ) : null;
 }
 
